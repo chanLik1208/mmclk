@@ -4,7 +4,8 @@
     "dependencies": {
         "core": "*",
         "radio": "*",
-        "microphone": "*"
+        "microphone": "*",
+        "s s": "github:chanlik1208/s-s#master"
     },
     "files": [
         "main.blocks",
