@@ -31,43 +31,41 @@ basic.showLeds(`
     . . . . .
     . . . . .
     `)
-basic.forever(function () {
-    if (input.pinIsPressed(TouchPin.P1)) {
-        basic.showLeds(`
-            # . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-        basic.showLeds(`
-            # # . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-        basic.showLeds(`
-            # # . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-        basic.showLeds(`
-            # # # # .
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-        basic.showLeds(`
-            # # # # #
-            . . . . .
-            . . . . .
-            . . . . .
-            . . . . .
-            `)
-        music.playMelody("C5 B C5 B A G F E ", 120)
-    }
-})
+if (input.pinIsPressed(TouchPin.P1)) {
+    basic.showLeds(`
+        # . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    basic.showLeds(`
+        # # # # #
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        `)
+    music.playMelody("C5 B C5 B A G F E ", 120)
+}
