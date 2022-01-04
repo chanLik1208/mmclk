@@ -1,1 +1,37 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="[?{0QAH6a)y$Cas~S9J9" x="20" y="20"/><block type="device_forever" id="F[g?A=TVs6O=-.]lpH_=" x="225" y="20"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="xp4_9VTuu[oFDC,x7O.e" x="0" y="0"/><block type="controls_if" id=";$d`F3C,7me?NMxM~ypo" disabled="true" x="456" y="-9"><value name="IF0"><shadow type="logic_boolean" id="P|d..HN1G~%j.mGK/43+" disabled="true"><field name="BOOL">TRUE</field></shadow></value></block><block type="device_button_event" id="8EU:pSgnvWK4f|3IJ4uV" x="329" y="214"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_show_leds" id="k)^5X4:RHroMCd%2g:[d"><field name="LEDS">`
+        # . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="B_HDz{_s.P%o$vbc)Pm-"><field name="LEDS">`
+        # # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="o)5h~u9^VfT!Cigh4#1)"><field name="LEDS">`
+        # # # . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=";I;6P9psa;Z}^Io_PTwM"><field name="LEDS">`
+        # # # # . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="*uh@efu`9{At~D6BlaB!"><field name="LEDS">`
+        # # # # # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="playMelody" id="BvwsI~cj25gAC/:Ekfec"><value name="melody"><shadow type="melody_editor" id="a)jlxMKGER4;RC{ZFu|t"><field name="melody">"C5 B C5 B A G F E "</field></shadow></value><value name="tempo"><shadow type="math_number_minmax" id="%vwz9NQQ6Ok`QRpzRw)|"><mutation min="40" max="500" label="Tempo" precision="0"/><field name="SLIDER">120</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="uOjaAN;b4yjEJD;FTF/6" disabled="true" x="7" y="232"><field name="NAME">Button.A</field></block><block type="pxt-on-start" id=")IGG:|h8W/R/Q#%GJ)EF" x="546" y="206"><statement name="HANDLER"><block type="device_show_leds" id="@A6:L*`9%vGOzk!F*63I"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></statement></block></xml>
